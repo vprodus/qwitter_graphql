@@ -1,0 +1,45 @@
+{
+  "name": "qwitter",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Qwitter",
+  "author": "vadim <vprodus@yandex.ru>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@absinthe/socket": "^0.2.1",
+    "@quasar/extras": "^1.0.0",
+    "@urql/exchange-graphcache": "^4.2.1",
+    "@urql/vue": "^0.4.2",
+    "core-js": "^3.6.5",
+    "date-fns": "^2.22.1",
+    "graphql": "^15.5.1",
+    "graphql-tag": "^2.12.5",
+    "phoenix": "^1.5.9",
+    "quasar": "^2.0.0",
+    "urql": "^2.0.4",
+    "wonka": "^4.0.15"
+  },
+  "devDependencies": {
+    "@quasar/app": "^3.0.0",
+    "electron": "^13.1.8"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
